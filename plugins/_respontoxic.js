@@ -15,13 +15,10 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
   let name = await conn.getName(m.sender)
   let runnya = `━━━ꕥ〔 *SOURCE CODE* 〕ꕥ━⬣
-✾ *New Script by ᴹᴿ᭄ King Of Bear ×፝֟͜× Official*
+✾ *New Script*
 
-✾ *OFFICIAL GROUP*
-_https://chat.whatsapp.com/HAZ6yFgCafUAeDbNH33IrL_
-
-✾ *YOUTUBE OFFICIAL*
-_https://youtu.be/hklv-Ysqqac_
+✾ *WA OWNER*
+_6281249578370
 ━━━━━━ꕥ`
   let _muptime
     if (process.send) {
@@ -34,13 +31,13 @@ _https://youtu.be/hklv-Ysqqac_
     let muptime = clockString(_muptime)
  await conn.sendButton(m.chat, runnya,wm + '\n\n' + botdate, fla, [['🧑OWNER','.owner']], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/hklv-Ysqqac',
+                        sourceUrl: 'https://youtu.be',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
+                        description: `Created 2023`,
                         title: `💌 My Ultah: ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        body: `loli-bot`,          previewType: 0,
                         thumbnail: await (await fetch(thumb)).buffer(),
-                        mediaUrl: 'https://youtu.be/hklv-Ysqqac'
+                        mediaUrl: 'https://telegra.ph/file/082f9c51a6e0320d59d36.jpg'
                         
                       }}
 })
