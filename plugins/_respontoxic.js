@@ -5,16 +5,7 @@ let handler = async (m, { conn, args, command }) => {
   let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let who = m.sender
-const time = moment.tz('Asia/Jakarta').format('HH')
-  const ultah = new Date(`${ultahowner} 00:00:01`)
-    const sekarat = new Date().getTime() 
-    const Kurang = ultah - sekarat
-    const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
-    const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
-    const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
-    const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-  let name = await conn.getName(m.sender)
-  let runnya = `━━━ꕥ〔 *SOURCE CODE* 〕ꕥ━⬣
+let runnya = `━━━ꕥ〔 *SOURCE CODE* 〕ꕥ━⬣
 ✾ *New Script*
 
 ✾ *WA OWNER*
